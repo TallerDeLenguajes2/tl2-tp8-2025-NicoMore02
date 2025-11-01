@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<tl2_tp8_2025_NicoMore02.Models.Productos>
+
+<div class="text-center">
+    <h1 class="display-4">Lista De Productos</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<table class="table">
+    <Thead class="thead-dark">
+        <tr>
+            <th scope="col">IdProducto</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Precio</th>
+        </tr>
+    </Thead>
+    <tbody class="table-group-divider">
+        @foreach (var producto in Model)
+        {
+            <tr>
+              <th scope="col">@producto.idProducto</th>
+                <td>@producto.descripcion</td>
+                <td>$ @producto.precio</td>  
+            </tr>
+        }
+    </tbody>
+</table>
