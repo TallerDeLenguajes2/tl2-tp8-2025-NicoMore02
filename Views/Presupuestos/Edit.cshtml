@@ -1,0 +1,71 @@
+@{
+    ViewData["Title"] = "Editar Presupuesto";
+}
+@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
+
+<h2>Editar Presupuesto #@Model.idPresupuesto</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Editar" method="post">
+            
+            <input type="hidden" asp-for="idPresupuesto" />
+            
+            <div class="form-group">
+                <label asp-for="NombreDestinatario" class="control-label"></label>
+                <input asp-for="NombreDestinatario" class="form-control" />
+                <span asp-validation-for="NombreDestinatario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" type="date" class="form-control" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-warning">
+                    <i class="fas fa-edit"></i> Actualizar Presupuesto
+                </button>
+                <a href="@Url.Action("Details", new { id = Model.idPresupuesto })" class="btn btn-info">
+                    <i class="fas fa-eye"></i> Ver Detalle
+                </a>
+                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Volver a la Lista
+                </a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5>Información del Presupuesto</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>ID:</strong> @Model.idPresupuesto</p>
+                <p><strong>Fecha de creación original:</strong> @Model.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</p>
+                
+                @if (Model.detalle != null && Model.detalle.Any())
+                {
+                    <hr>
+                    <h6>Productos actuales:</h6>
+                    <ul class="list-group">
+                        @foreach (var detalle in Model.detalle.Take(3))
+                        {
+                            <li class="list-group-item py-1">
+                                @detalle.producto.descripcion (x@detalle.cantidad)
+                            </li>
+                        }
+                    </ul>
+                    @if (Model.detalle.Count > 3)
+                    {
+                        <small class="text-muted">y @(Model.detalle.Count - 3) productos más...</small>
+                    }
+                }
+                else
+                {
+                    <p class="text-muted">No hay productos en este presupuesto</p>
+                }
+            </div>
+        </div>

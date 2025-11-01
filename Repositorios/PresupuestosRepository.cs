@@ -159,4 +159,28 @@ public class PresupuestosRepository
         comandopresu.Parameters.Add(new SqliteParameter("@id", id));
         comandopresu.ExecuteNonQuery();
     }
+
+    public void ActualizarPresupuesto(Presupuestos presupuesto)
+    {
+        using var conexion = new SqliteConnection(connectionString);
+        conexion.Open();
+
+        string sql = @"UPDATE Presupuestos 
+                  SET NombreDestinatario = @NombreDestinatario, 
+                      FechaCreacion = @FechaCreacion 
+                  WHERE idPresupuesto = @idPresupuesto";
+
+        using var comando = new SqliteCommand(sql, conexion);
+    
+        comando.Parameters.Add(new SqliteParameter("@NombreDestinatario", presupuesto.NombreDestinatario ?? ""));
+        comando.Parameters.Add(new SqliteParameter("@FechaCreacion", presupuesto.FechaCreacion));
+        comando.Parameters.Add(new SqliteParameter("@idPresupuesto", presupuesto.idPresupuesto));
+
+        int filasAfectadas = comando.ExecuteNonQuery();
+    
+        if (filasAfectadas == 0)
+        {
+            throw new Exception($"No se encontró el presupuesto con ID {presupuesto.idPresupuesto}");
+        }
+    }
 }

@@ -1,37 +1,33 @@
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Detalle del Presupuesto";
 }
-@model List<tl2_tp8_2025_NicoMore02.Models.Presupuestos>
+@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
 
-<h2>Lista de Presupuestos</h2>
+<h2>Detalles</h2>
 
 <table class="table table-striped">
     <thead class="thead-dark">
         <tr>
             <th>ID</th>
-            <th>Destinatario</th>
-            <th>Fecha</th>
             <th>Productos</th>
-            <th>Cantidad</th>
+            <th>Precio por Unidad</th>
+            <th>Cantidad por producto</th>
+            <th>Cantidad Total</th>
             <th>Total sin IVA</th>
             <th>Total con IVA</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var presupuesto in Model)
-        {
             <tr>
-                <td>@presupuesto.idPresupuesto</td>
-                <td>@presupuesto.NombreDestinatario</td>
-                <td>@presupuesto.FechaCreacion.ToString("dd/MM/yyyy")</td>
+                <td>@Model.idPresupuesto</td>
                 <td>
-                    @if (presupuesto.detalle.Any())
+                    @if (Model.detalle.Any())
                     {
                         <ul class="list-unstyled">
-                            @foreach (var detalle in presupuesto.detalle)
+                            @foreach (var detalle in Model.detalle)
                             {
                                 <li>@detalle.producto.descripcion</li>
-
                             }
                         </ul>
                     }
@@ -40,14 +36,34 @@
                         <span class="text-muted">Sin productos</span>
                     }
                 </td>
-                <td>@foreach (var detalle in presupuesto.detalle)
-                    {
-                        <ul>@detalle.cantidad</ul>
-                    }               
+                <td>
+                    <ul class="list-unstyled">
+                            @foreach (var detalle in Model.detalle)
+                            {
+                                <li>$@detalle.producto.precio</li>
+                            }
+                        </ul>
                 </td>
-                <td>$@presupuesto.MontoPresupuesto()</td>
-                <td>$@presupuesto.MontoPresupuestoConIva().ToString("N2")</td>
+                <td>
+                    <ul class="list-unstyled">
+                            @foreach (var detalle in Model.detalle)
+                            {
+                                <li>@detalle.cantidad</li>
+                            }
+                        </ul>
+                </td>
+                <td>
+                    <ul class="list-unstyled">
+                        <li>@Model.CantidadProductos()</li>
+                    </ul>
+                </td>
+                <td>$@Model.MontoPresupuesto()</td>
+                <td>$@Model.MontoPresupuestoConIva()</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = Model.idPresupuesto })" class = "btn btn-secondary">Editar Presupuesto</a>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+<a href="@Url.Action("Delete", new { id = Model.idPresupuesto })" class="btn btn-dark">Eliminar Presupuesto</a>

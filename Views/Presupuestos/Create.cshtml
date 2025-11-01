@@ -1,0 +1,52 @@
+@{
+    ViewData["Title"] = "Crear Presupuesto";
+}
+@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
+
+<h2>Crear Nuevo Presupuesto</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Crear" method="post">
+            
+            
+            <div class="form-group">
+                <label asp-for="NombreDestinatario" class="control-label"></label>
+                <input asp-for="NombreDestinatario" class="form-control" />
+                <span asp-validation-for="NombreDestinatario" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaCreacion" class="control-label"></label>
+                <input asp-for="FechaCreacion" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="FechaCreacion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-success">
+                    <i class="fas fa-save"></i> Crear Presupuesto
+                </button>
+                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Cancelar
+                </a>
+            </div>
+        </form>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Información</h5>
+            </div>
+            <div class="card-body">
+                <p>Al crear un presupuesto podrás:</p>
+                <ul>
+                    <li>Agregar productos posteriormente</li>
+                    <li>Calcular totales automáticamente</li>
+                    <li>Generar reportes con IVA incluido</li>
+                </ul>
+                <p class="text-muted">Los productos se agregan después de crear el presupuesto.</p>
+            </div>
+        </div>
+    </div>
+</div

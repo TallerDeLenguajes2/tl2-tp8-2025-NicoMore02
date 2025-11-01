@@ -13,9 +13,89 @@ public class PresupuestosController : Controller
     }
 
     [HttpGet]
-    public IActionResult Details()
+    public IActionResult Index()
     {
         List<Presupuestos> presupuestos = presupuestosRepository.ListarPresupuestos();
         return View(presupuestos);
     }
+
+    [HttpGet]
+    public IActionResult Details(int id)
+    {
+        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        if (presupuesto == null)
+        {
+            NotFound();
+        }
+        return View(presupuesto);
+    }
+
+    //GET y POST para CREAR
+    [HttpGet]
+    public IActionResult Create()
+    {
+        var presupuesto = new Presupuestos
+        {
+            FechaCreacion = DateTime.Now
+        };
+        return View(presupuesto);
+    }
+
+    [HttpPost]
+    public IActionResult Create(Presupuestos presupuestos)
+    {
+        presupuestosRepository.CrearPresupuesto(presupuestos);
+        TempData["Success"] = "Presupuesto creado correctamente";
+        return RedirectToAction(nameof(Index));
+    }
+
+    //GET y POST para EDITAR
+
+    [HttpGet]
+    public IActionResult Edit(int id)
+    {
+        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        if (presupuesto == null)
+        {
+            TempData["Error"] = "Presupuesto no encontrado";
+            return RedirectToAction(nameof(Index));
+        }
+        return View(presupuesto);
+    }
+
+    [HttpPost]
+    public IActionResult Edit(int id, Presupuestos presupuesto)
+    {
+        presupuestosRepository.ActualizarPresupuesto(presupuesto);
+        TempData["Success"] = "Presupuesto actualizado correctamente";
+        return RedirectToAction(nameof(Details), new { id = presupuesto.idPresupuesto });
+    }
+
+    // GET y POST para Eliminar
+    [HttpGet]
+    public IActionResult Delete(int id)
+    {
+
+        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        if (presupuesto == null)
+        {
+            TempData["Error"] = "Presupuesto no encontrado";
+            return RedirectToAction(nameof(Index));
+        }
+        return View(presupuesto);
+    }
+
+    [HttpPost, ActionName("EliminarConfirmado")]
+    public IActionResult DeleteConfirmed(int id)
+    {
+        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        if (presupuesto == null)
+        {
+            TempData["Error"] = "Presupuesto no encontrado";
+            return RedirectToAction(nameof(Index));
+        }
+        presupuestosRepository.EliminarPresupuesto(id);
+        TempData["Success"] = "Presupuesto Eliminado correctamente";
+        return RedirectToAction(nameof(Index));
+    }    
 }

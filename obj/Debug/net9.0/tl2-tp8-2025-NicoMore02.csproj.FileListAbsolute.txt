@@ -121,3 +121,4 @@ C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\t
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.AssemblyReference.cache
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-.D9267CBC.Up2Date
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.sourcelink.json

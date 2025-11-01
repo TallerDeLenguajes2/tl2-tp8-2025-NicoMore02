@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Eliminar Presupuesto";
+}
+@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
+
+<h2 class="text-danger">Eliminar Presupuesto</h2>
+
+<div class="alert alert-danger">
+    <h4>¿Está seguro que desea eliminar este presupuesto?</h4>
+    <p class="mb-0">Esta acción no se puede deshacer.</p>
+</div>
+
+<form asp-action="EliminarConfirmado" method="post" class="mt-4">
+    <input type="hidden" asp-for="idPresupuesto" />
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger btn-lg">
+            <i class="fas fa-trash"></i> Confirmar Eliminación
+        </button>
+        <a href="@Url.Action("Details", new { id = Model.idPresupuesto })" class="btn btn-secondary btn-lg">
+            <i class="fas fa-times"></i> Cancelar
+        </a>
+        <a href="@Url.Action("Index")" class="btn btn-outline-secondary btn-lg">
+            <i class="fas fa-arrow-left"></i> Volver a la Lista
+        </a>
+    </div>
+</form>
+
+<div class="alert alert-warning mt-3">
+    <h6><i class="fas fa-exclamation-triangle"></i> Advertencia</h6>
+    <p class="mb-0">
+        Al eliminar este presupuesto, también se eliminarán todos los productos asociados. 
+        Esta acción afectará cualquier reporte o estadística que dependa de esta información.
+    </p>
+</div>
