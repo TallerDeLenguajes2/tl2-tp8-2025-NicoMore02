@@ -1,0 +1,155 @@
+@{
+    ViewData["Title"] = "Agregar Producto al Presupuesto";
+}
+@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
+
+<h2>Agregar Producto al Presupuesto #@Model.idPresupuesto</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-plus-circle"></i> Agregar Producto por ID
+                </h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="AgregarProducto" method="post" id="formAgregarProducto">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="idPresupuesto" value="@Model.idPresupuesto" />
+                    
+                    <div class="form-group mb-3">
+                        <label for="idProducto" class="form-label">
+                            <strong>ID del Producto:</strong>
+                        </label>
+                        <input type="number" id="idProducto" name="idProducto" 
+                               class="form-control" min="1" 
+                               placeholder="Ingrese el ID del producto" required>
+                        <small class="form-text text-muted">
+                            Ingrese el número de ID del producto que desea agregar
+                        </small>
+                    </div>
+                    
+                    <div class="form-group mb-3">
+                        <label for="cantidad" class="form-label">
+                            <strong>Cantidad:</strong>
+                        </label>
+                        <input type="number" id="cantidad" name="cantidad" 
+                               class="form-control" min="1" max="100" 
+                               value="1" required>
+                        <small class="form-text text-muted">Mínimo: 1, Máximo: 100</small>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-lg w-100">
+                            <i class="fas fa-cart-plus"></i> Agregar Producto
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Información del Presupuesto -->
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Información del Presupuesto</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Número:</strong> #@Model.idPresupuesto</p>
+                <p><strong>Destinatario:</strong> @Model.NombreDestinatario</p>
+                <p><strong>Fecha:</strong> @Model.FechaCreacion.ToString("dd/MM/yyyy")</p>
+                <p><strong>Productos actuales:</strong> @(Model.detalle?.Count ?? 0)</p>
+                <p><strong>Total actual:</strong> $@Model.MontoPresupuestoConIva().ToString("N2")</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <!-- Lista de Productos Disponibles -->
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-boxes"></i> Productos Disponibles
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (ViewBag.Productos != null && ViewBag.Productos.Count > 0)
+                {
+                    <div class="table-responsive">
+                        <table class="table table-sm table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Descripción</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var producto in ViewBag.Productos)
+                                {
+                                    <tr>
+                                        <td><strong>@producto.idProducto</strong></td>
+                                        <td>@producto.descripcion</td>
+                                        <td>$ @producto.precio.ToString("N0")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning">
+                        <i class="fas fa-exclamation-triangle"></i> No hay productos disponibles en el sistema.
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Productos Actuales en el Presupuesto -->
+        <div class="card mt-4">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0">Productos en este Presupuesto</h5>
+            </div>
+            <div class="card-body">
+                @if (Model.detalle != null && Model.detalle.Any())
+                {
+                    <div class="list-group">
+                        @foreach (var detalle in Model.detalle)
+                        {
+                            <div class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <small><strong>ID @detalle.producto.idProducto:</strong> @detalle.producto.descripcion</small>
+                                    <br>
+                                    <span class="badge bg-primary">Cantidad: @detalle.cantidad</span>
+                                </div>
+                                <small class="text-end">
+                                    $@detalle.producto.precio.ToString("N0") c/u<br>
+                                    <strong>$@((detalle.producto.precio * detalle.cantidad).ToString("N0"))</strong>
+                                </small>
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <p class="text-muted text-center">No hay productos en este presupuesto</p>
+                }
+            </div>
+        </div>
+
+        <!-- Acciones Rápidas -->
+        <div class="card mt-4">
+            <div class="card-body text-center">
+                <a href="@Url.Action("Details", new { id = Model.idPresupuesto })" 
+                   class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left"></i> Volver al Detalle
+                </a>
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+                    <i class="fas fa-list"></i> Ver Todos los Presupuestos
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+

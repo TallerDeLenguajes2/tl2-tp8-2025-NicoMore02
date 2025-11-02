@@ -129,20 +129,65 @@ public class PresupuestosRepository
     }
 
     public void AgregarProductos(int idPresupuesto, int idProducto, int cantidad)
+{
+    using var conexion = new SqliteConnection(connectionString);
+    conexion.Open();
+
+    // Primero verificar si el producto ya existe
+    string sqlVerificar = @"SELECT Cantidad FROM PresupuestosDetalle 
+                           WHERE idPresupuesto = @idPresupuesto AND idProducto = @idProducto";
+    
+    using var comandoVerificar = new SqliteCommand(sqlVerificar, conexion);
+    comandoVerificar.Parameters.Add(new SqliteParameter("@idPresupuesto", idPresupuesto));
+    comandoVerificar.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
+    
+    var resultado = comandoVerificar.ExecuteScalar();
+    
+    if (resultado != null)
     {
-        using (var conexion = new SqliteConnection(connectionString))
-        {
-            conexion.Open();
-            string slq = "INSERT INTO PresupuestoDetalle (idPresupuesto, idProducto, cantidad) VALUES (@idPresupuesto, @idProducto, @cantidad)";
-
-            using var comando = new SqliteCommand(slq, conexion);
-            comando.Parameters.Add(new SqliteParameter("@idPresupuesto", idPresupuesto));
-            comando.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
-            comando.Parameters.Add(new SqliteParameter("@cantidad", cantidad));
-
-            comando.ExecuteNonQuery();
-        }
+        int cantidadActual = Convert.ToInt32(resultado);
+        string sqlActualizar = @"UPDATE PresupuestosDetalle 
+                               SET Cantidad = @nuevaCantidad 
+                               WHERE idPresupuesto = @idPresupuesto AND idProducto = @idProducto";
+        
+        using var comandoActualizar = new SqliteCommand(sqlActualizar, conexion);
+        comandoActualizar.Parameters.Add(new SqliteParameter("@idPresupuesto", idPresupuesto));
+        comandoActualizar.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
+        comandoActualizar.Parameters.Add(new SqliteParameter("@nuevaCantidad", cantidadActual + cantidad));
+        comandoActualizar.ExecuteNonQuery();
     }
+    else
+    {
+        string sqlInsertar = @"INSERT INTO PresupuestosDetalle (idPresupuesto, idProducto, Cantidad) 
+                              VALUES (@idPresupuesto, @idProducto, @cantidad)";
+        
+        using var comandoInsertar = new SqliteCommand(sqlInsertar, conexion);
+        comandoInsertar.Parameters.Add(new SqliteParameter("@idPresupuesto", idPresupuesto));
+        comandoInsertar.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
+        comandoInsertar.Parameters.Add(new SqliteParameter("@cantidad", cantidad));
+        comandoInsertar.ExecuteNonQuery();
+    }
+}
+
+
+
+
+
+    //public void AgregarProductos(int idPresupuesto, int idProducto, int cantidad)
+    //{
+    //    using (var conexion = new SqliteConnection(connectionString))
+    //    {
+    //        conexion.Open();
+    //        string slq = "INSERT INTO PresupuestosDetalle (idPresupuesto, idProducto, cantidad) VALUES (@idPresupuesto, @idProducto, @cantidad)";
+
+    //        using var comando = new SqliteCommand(slq, conexion);
+    //        comando.Parameters.Add(new SqliteParameter("@idPresupuesto", idPresupuesto));
+    //        comando.Parameters.Add(new SqliteParameter("@idProducto", idProducto));
+    //        comando.Parameters.Add(new SqliteParameter("@cantidad", cantidad));
+
+    //        comando.ExecuteNonQuery();
+    //    }
+    //}
 
     public void EliminarPresupuesto(int id)
     {

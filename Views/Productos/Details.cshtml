@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Lista de Productos";
+}
+@model tl2_tp8_2025_NicoMore02.Models.Productos
+
+<div class="text-center">
+    <h1 class="display-4">Lista De Productos</h1>
+</div>
+
+<table class="table">
+    <Thead class="thead-dark">
+        <tr>
+            <th scope="col">#</th>            
+            <th scope="col">Nombre del Producto</th>
+            <th scope="col">Precio</th>            
+        </tr>
+    </Thead>
+    <tbody class="table-group-divider">
+                <tr>
+                    <td>@Model.idProducto</td>
+                    <td>@Model.descripcion</td>
+                    <td>@Model.precio</td>  
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = Model.idProducto})" class="btn btn-info btn-sm">Modificar</a>
+                    </td>
+                </tr>
+    </tbody>
+</table>
+<a href="@Url.Action("Delete", new { id = Model.idProducto })" class="btn btn-dark">Eliminar Producto</a>

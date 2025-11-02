@@ -97,5 +97,31 @@ public class PresupuestosController : Controller
         presupuestosRepository.EliminarPresupuesto(id);
         TempData["Success"] = "Presupuesto Eliminado correctamente";
         return RedirectToAction(nameof(Index));
-    }    
+    }
+
+    //GET y POST para agregar producto a un presupuesto
+
+    [HttpGet]
+    public IActionResult AddProduct(int id)
+    {
+
+        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        if (presupuesto == null)
+        {
+            TempData["Error"] = "Presupuesto no encontrado";
+            return RedirectToAction(nameof(Index));
+        }
+
+        return View(presupuesto);
+    }
+
+    [HttpPost, ActionName("AgregarProducto")]
+    public IActionResult AddProduct(int idPresupuesto, int idProducto, int cantidad)
+    {
+        presupuestosRepository.AgregarProductos(idPresupuesto, idProducto, cantidad);
+        
+        TempData["Success"] = $"Producto agregado correctamente al presupuesto (Cantidad: {cantidad})";
+        return RedirectToAction(nameof(Details), new { id = idPresupuesto });
+    }
+        
 }
