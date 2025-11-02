@@ -4,7 +4,7 @@ using tl2_tp8_2025_NicoMore02.Models;
 
 public class PresupuestosRepository
 {
-    private string connectionString = "Data Source=Tienda_final.db";
+    private string connectionString = "Data Source=DB/Tienda_final.db";
 
     public void CrearPresupuesto(Presupuestos presupuesto)
     {
