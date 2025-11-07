@@ -1,16 +1,17 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using tl2_tp8_2025_NicoMore02.Models;
+using SistemaVentas.Web.ViewModels;
 
 namespace tl2_tp8_2025_NicoMore02.Controllers;
 
 public class ProductosController : Controller
 {
-    private ProductosRepository productosRepository;
-    public ProductosController()
-    {
-        productosRepository = new ProductosRepository();
-    }
+    private readonly ProductosRepository productosRepository = new ProductosRepository();
+    //public ProductosController()
+    //{
+    //    productosRepository = new ProductosRepository();
+    //}
 
     [HttpGet]
     public IActionResult Index()
@@ -54,10 +55,18 @@ public class ProductosController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Productos producto)
+    public IActionResult Create(ProductoViewModel ProductoVM)
     {
-        productosRepository.CrearProducto(producto);
-        TempData["Success"] = "Producto Creado";
+        if (!ModelState.IsValid)
+        {
+            return View(ProductoVM);
+        }
+        var nuevoProducto = new Productos
+        {
+            descripcion = ProductoVM.descripcion,
+            precio = ProductoVM.precio
+        };
+        productosRepository.CrearProducto(nuevoProducto);
         return RedirectToAction(nameof(Index));
     }
 

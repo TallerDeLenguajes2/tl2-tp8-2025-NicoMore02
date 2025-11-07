@@ -6,11 +6,11 @@ public class Presupuestos
     public DateTime FechaCreacion { get; set; }
     public List<PresupuestosDetalle> detalle { get; set; } = new List<PresupuestosDetalle>();
 
-    public int MontoPresupuesto()
+    public decimal MontoPresupuesto()
     {
         //detalle = new List<PresupuestosDetalle>();
 
-        int total = 0;
+        decimal total = 0;
         foreach (var detalles in detalle)
         {
             total += detalles.producto.precio * detalles.cantidad; 
@@ -18,10 +18,10 @@ public class Presupuestos
         return total;
     }
 
-    public double MontoPresupuestoConIva()
+    public decimal MontoPresupuestoConIva()
     {
-        int monto = MontoPresupuesto();
-        double total = monto + (monto * 0.21);
+        decimal monto = MontoPresupuesto();
+        decimal total = monto + (monto * 0.21m);
         return total;
     }
 

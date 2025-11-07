@@ -49,7 +49,7 @@ public class ProductosRepository
                     {
                         idProducto = reader.GetInt32(0),
                         descripcion = reader.GetString(1),
-                        precio = reader.GetInt32(2)
+                        precio = reader.GetDecimal(2)
                     });
                 }
             }
@@ -75,7 +75,7 @@ public class ProductosRepository
             {
                 idProducto = Convert.ToInt32(lector["idProducto"]),
                 descripcion = lector["Descripcion"].ToString(),
-                precio = Convert.ToInt32(lector["Precio"])
+                precio = Convert.ToDecimal(lector["Precio"])
             };
 
             return produ;
