@@ -15,7 +15,6 @@
             </div>
             <div class="card-body">
                 <form asp-action="AgregarProducto" method="post" id="formAgregarProducto">
-                    @Html.AntiForgeryToken()
                     <input type="hidden" name="idPresupuesto" value="@Model.idPresupuesto" />
                     
                     <div class="form-group mb-3">
@@ -49,7 +48,7 @@
             </div>
         </div>
 
-        <!-- Información del Presupuesto -->
+
         <div class="card mt-4">
             <div class="card-header bg-primary text-white">
                 <h5 class="mb-0">Información del Presupuesto</h5>
@@ -65,7 +64,7 @@
     </div>
     
     <div class="col-md-6">
-        <!-- Lista de Productos Disponibles -->
+
         <div class="card">
             <div class="card-header bg-info text-white">
                 <h5 class="mb-0">
@@ -106,7 +105,7 @@
             </div>
         </div>
 
-        <!-- Productos Actuales en el Presupuesto -->
+
         <div class="card mt-4">
             <div class="card-header bg-warning text-dark">
                 <h5 class="mb-0">Productos en este Presupuesto</h5>
@@ -138,7 +137,7 @@
             </div>
         </div>
 
-        <!-- Acciones Rápidas -->
+
         <div class="card mt-4">
             <div class="card-body text-center">
                 <a href="@Url.Action("Details", new { id = Model.idPresupuesto })" 

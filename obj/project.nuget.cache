@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Oa7MgOQUxc=",
+  "dgSpecHash": "f4RIU0FBEx0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp 8\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
+  "projectFilePath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicom\\.nuget\\packages\\microsoft.data.sqlite\\9.0.10\\microsoft.data.sqlite.9.0.10.nupkg.sha512",
     "C:\\Users\\nicom\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.10\\microsoft.data.sqlite.core.9.0.10.nupkg.sha512",

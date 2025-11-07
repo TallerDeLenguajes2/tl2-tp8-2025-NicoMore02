@@ -328,7 +328,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.Data.SQLite >= 9.0.10"
+      "Microsoft.Data.Sqlite >= 9.0.10"
     ]
   },
   "packageFolders": {
@@ -337,11 +337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp 8\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
+      "projectUniqueName": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
       "projectName": "tl2-tp8-2025-NicoMore02",
-      "projectPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp 8\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
+      "projectPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
       "packagesPath": "C:\\Users\\nicom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp 8\\tl2-tp8-2025-NicoMore02\\obj\\",
+      "outputPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicom\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -374,7 +374,7 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "Microsoft.Data.SQLite": {
+          "Microsoft.Data.Sqlite": {
             "target": "Package",
             "version": "[9.0.10, )"
           }
