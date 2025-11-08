@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Editar Presupuesto";
 }
-@model tl2_tp8_2025_NicoMore02.Models.Presupuestos
+@model SistemaVentas.Web.ViewModels.PresupuestoViewModel
 
 <h2>Editar Presupuesto #@Model.idPresupuesto</h2>
 
@@ -46,27 +46,6 @@
             <div class="card-body">
                 <p><strong>ID:</strong> @Model.idPresupuesto</p>
                 <p><strong>Fecha de creación original:</strong> @Model.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</p>
-                
-                @if (Model.detalle != null && Model.detalle.Any())
-                {
-                    <hr>
-                    <h6>Productos actuales:</h6>
-                    <ul class="list-group">
-                        @foreach (var detalle in Model.detalle.Take(3))
-                        {
-                            <li class="list-group-item py-1">
-                                @detalle.producto.descripcion (x@detalle.cantidad)
-                            </li>
-                        }
-                    </ul>
-                    @if (Model.detalle.Count > 3)
-                    {
-                        <small class="text-muted">y @(Model.detalle.Count - 3) productos más...</small>
-                    }
-                }
-                else
-                {
-                    <p class="text-muted">No hay productos en este presupuesto</p>
-                }
             </div>
         </div>
+@section Scripts {<partial name="_ValidationScriptsPartial" />}

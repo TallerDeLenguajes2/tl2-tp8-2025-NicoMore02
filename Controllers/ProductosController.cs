@@ -36,14 +36,32 @@ public class ProductosController : Controller
         {
             return NotFound();
         }
-        return View(producto);
+
+        var productoEditar = new ProductoViewModel
+        {
+            idProducto = producto.idProducto,
+            descripcion = producto.descripcion,
+            precio = producto.precio
+        };
+        return View(productoEditar);
     }
 
     [HttpPost]
-    public IActionResult Edit(int id, Productos producto)
+    public IActionResult Edit(int id, ProductoViewModel productoVM)
     {
-        productosRepository.ActualizarProducto(id, producto);
-        TempData["Success"] = "Producto Actualizado";
+        if (id != productoVM.idProducto) return NotFound();
+
+        if (!ModelState.IsValid)
+        {
+            return View(productoVM);
+        }
+        var ProductoEditado = new Productos
+        {
+            idProducto = productoVM.idProducto,
+            descripcion = productoVM.descripcion,
+            precio = productoVM.precio
+        };
+        productosRepository.ActualizarProducto(id, ProductoEditado);
         return RedirectToAction(nameof(Index));
     }
 

@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using tl2_tp8_2025_NicoMore02.Models;
+using SistemaVentas.Web.ViewModels;
 
 namespace tl2_tp8_2025_NicoMore02.Controllers;
 
@@ -34,7 +35,7 @@ public class PresupuestosController : Controller
     [HttpGet]
     public IActionResult Create()
     {
-        var presupuesto = new Presupuestos
+        var presupuesto = new PresupuestoViewModel
         {
             FechaCreacion = DateTime.Now
         };
@@ -42,9 +43,18 @@ public class PresupuestosController : Controller
     }
 
     [HttpPost]
-    public IActionResult Create(Presupuestos presupuestos)
+    public IActionResult Create(PresupuestoViewModel presupuestoVm)
     {
-        presupuestosRepository.CrearPresupuesto(presupuestos);
+        if (!ModelState.IsValid)
+        {
+            return View(presupuestoVm);
+        }
+        var nuevoPresupuesto = new Presupuestos
+        {
+            NombreDestinatario = presupuestoVm.NombreDestinatario,
+            FechaCreacion = presupuestoVm.FechaCreacion
+        };
+        presupuestosRepository.CrearPresupuesto(nuevoPresupuesto);
         TempData["Success"] = "Presupuesto creado correctamente";
         return RedirectToAction(nameof(Index));
     }
@@ -60,15 +70,31 @@ public class PresupuestosController : Controller
             TempData["Error"] = "Presupuesto no encontrado";
             return RedirectToAction(nameof(Index));
         }
-        return View(presupuesto);
+        var presupuestoEditar = new PresupuestoViewModel
+        {
+            idPresupuesto = presupuesto.idPresupuesto,
+            NombreDestinatario = presupuesto.NombreDestinatario,
+            FechaCreacion = presupuesto.FechaCreacion
+        };
+        return View(presupuestoEditar);
     }
 
     [HttpPost]
-    public IActionResult Edit(int id, Presupuestos presupuesto)
+    public IActionResult Edit(int id, PresupuestoViewModel presupuestoView)
     {
-        presupuestosRepository.ActualizarPresupuesto(presupuesto);
+        if (!ModelState.IsValid)
+        {
+            return View(presupuestoView);
+        }
+        var presupuestoEditar = new Presupuestos
+        {
+            idPresupuesto = presupuestoView.idPresupuesto,
+            NombreDestinatario = presupuestoView.NombreDestinatario,
+            FechaCreacion = presupuestoView.FechaCreacion
+        };
+        presupuestosRepository.ActualizarPresupuesto(presupuestoEditar);
         TempData["Success"] = "Presupuesto actualizado correctamente";
-        return RedirectToAction(nameof(Details), new { id = presupuesto.idPresupuesto });
+        return RedirectToAction(nameof(Details), new { id = presupuestoView.idPresupuesto });
     }
 
     // GET y POST para Eliminar
