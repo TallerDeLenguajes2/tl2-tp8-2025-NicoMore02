@@ -1,4 +1,4 @@
-namespace tl2_tp8_2025_NicoMore02.Models;
+namespace tp10.Models;
 
 public class ErrorViewModel
 {

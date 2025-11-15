@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using tl2_tp8_2025_NicoMore02.Models;
+using MVC.Models;
+using MVC.Repositorios;
 using SistemaVentas.Web.ViewModels;
 
 namespace tl2_tp8_2025_NicoMore02.Controllers;

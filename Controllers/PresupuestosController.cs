@@ -1,13 +1,17 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using tl2_tp8_2025_NicoMore02.Models;
 using SistemaVentas.Web.ViewModels;
+using MVC.Models;
+using MVC.Repositorios;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 
 namespace tl2_tp8_2025_NicoMore02.Controllers;
 
 public class PresupuestosController : Controller
 {
     private PresupuestosRepository presupuestosRepository;
+    private readonly ProductosRepository productosRepository = new ProductosRepository();
     public PresupuestosController()
     {
         presupuestosRepository = new PresupuestosRepository();
@@ -26,7 +30,7 @@ public class PresupuestosController : Controller
         var presupuesto = presupuestosRepository.GetPresupuesto(id);
         if (presupuesto == null)
         {
-            NotFound();
+            return NotFound();
         }
         return View(presupuesto);
     }
@@ -128,26 +132,33 @@ public class PresupuestosController : Controller
     //GET y POST para agregar producto a un presupuesto
 
     [HttpGet]
-    public IActionResult AddProduct(int id)
+    public IActionResult AgregarProducto(int id)
     {
 
-        var presupuesto = presupuestosRepository.GetPresupuesto(id);
-        if (presupuesto == null)
+        var productos = productosRepository.ListarTodos();
+        var modelo = new AgregarProductoViewModel
         {
-            TempData["Error"] = "Presupuesto no encontrado";
-            return RedirectToAction(nameof(Index));
-        }
+            idPresupuesto = id,
+            ListaProductos = new SelectList(productos, "idProducto", "descripcion")
+        };
 
-        return View(presupuesto);
+        return View(modelo);
     }
 
-    [HttpPost, ActionName("AgregarProducto")]
-    public IActionResult AddProduct(int idPresupuesto, int idProducto, int cantidad)
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public IActionResult AgregarProducto(AgregarProductoViewModel modelo)
     {
-        presupuestosRepository.AgregarProductos(idPresupuesto, idProducto, cantidad);
-        
-        TempData["Success"] = $"Producto agregado correctamente al presupuesto (Cantidad: {cantidad})";
-        return RedirectToAction(nameof(Details), new { id = idPresupuesto });
+        if (!ModelState.IsValid)
+        {
+            var producto = productosRepository.ListarTodos();
+            modelo.ListaProductos = new SelectList(producto, "idProducto", "descripcion");
+            return View(modelo);
+        }
+        presupuestosRepository.AgregarProductos(modelo.idPresupuesto, modelo.idProducto, modelo.cantidad);
+
+        TempData["Success"] = $"Producto agregado correctamente al presupuesto (Cantidad: {modelo.cantidad})";
+        return RedirectToAction(nameof(Details), new { id = modelo.idPresupuesto });
     }
-        
+
 }

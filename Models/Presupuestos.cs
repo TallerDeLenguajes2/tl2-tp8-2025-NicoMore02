@@ -1,4 +1,4 @@
-namespace tl2_tp8_2025_NicoMore02.Models;
+namespace MVC.Models;
 public class Presupuestos
 {
     public int idPresupuesto { get; set; }

@@ -1,6 +1,8 @@
 using Microsoft.Data.Sqlite;
-using tl2_tp8_2025_NicoMore02.Models;
-public class ProductosRepository
+using MVC.Interfaces;
+using MVC.Models;
+using MVC.Repositorios;
+public class ProductosRepository : IProductoRepository
 {
     private string connectionString = "Data Source=DB/Tienda_final.db";
 

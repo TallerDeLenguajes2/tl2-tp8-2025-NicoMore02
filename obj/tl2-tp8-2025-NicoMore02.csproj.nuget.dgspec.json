@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj": {}
+    "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp10\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj": {
+    "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp10\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
+        "projectUniqueName": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp10\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
         "projectName": "tl2-tp8-2025-NicoMore02",
-        "projectPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
+        "projectPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp10\\tl2-tp8-2025-NicoMore02\\tl2-tp8-2025-NicoMore02.csproj",
         "packagesPath": "C:\\Users\\nicom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp9\\tl2-tp8-2025-NicoMore02\\obj\\",
+        "outputPath": "C:\\Users\\nicom\\OneDrive\\Escritorio\\facultad\\Taller de Lenguaje 2\\Practica\\tp10\\tl2-tp8-2025-NicoMore02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicom\\AppData\\Roaming\\NuGet\\NuGet.Config"
