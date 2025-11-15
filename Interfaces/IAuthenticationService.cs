@@ -1,9 +1,9 @@
 namespace MVC.Interfaces;
 
-public interface IAuthenticationService
+public interface IAuthenticationRepository
 {
-    bool login(string user, string pass);
+    bool Login(string username, string password);
     void Logout();
     bool IsAuthenticated();
-    void HasAccessLever(string rol);
+    bool HasAccessLevel(string requiredAccessLevel);
 }

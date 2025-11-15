@@ -1,12 +1,12 @@
 using MVC.Interfaces;
 namespace MVC.Models;
 
-public class AuthenticationService : IAuthenticationService
+public class AuthenticationRepository : IAuthenticationRepository
 {
     private readonly IUserRepository userRepository;
     private readonly IHttpContextAccessor httpContextAccessor;
 
-    public AuthenticationService(IUserRepository userepo, IHttpContextAccessor httpcon)
+    public AuthenticationRepository(IUserRepository userepo, IHttpContextAccessor httpcon)
     {
         userRepository = userepo;
         httpContextAccessor = httpcon;
@@ -34,7 +34,7 @@ public class AuthenticationService : IAuthenticationService
     public void Logout()
     {
         var context = httpContextAccessor.HttpContext;
-        if (context != null)
+        if (context == null)
         {
             throw new InvalidOperationException("HttpContext no esta disponible.");
         }
@@ -44,12 +44,20 @@ public class AuthenticationService : IAuthenticationService
     public bool IsAuthenticated()
     {
         var context = httpContextAccessor.HttpContext;
-        if (context != null)
+        if (context == null)
         {
             throw new InvalidOperationException("HttpContext no esta disponible.");
         }
         return context.Session.GetString("IsAuthenticated") == "true";
     }
 
-    public 
+    public bool HasAccessLevel(string requiredAccessLevel)
+    {
+        var context = httpContextAccessor.HttpContext;
+        if (context == null)
+        {
+            throw new InvalidOperationException("HttpContext no esta disponible.");
+        }
+        return context.Session.GetString("Rol") == requiredAccessLevel;
+    }
 }
