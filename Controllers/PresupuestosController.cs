@@ -5,7 +5,6 @@ using MVC.Models;
 using MVC.Repositorios;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-
 namespace tl2_tp8_2025_NicoMore02.Controllers;
 
 public class PresupuestosController : Controller
@@ -30,7 +29,7 @@ public class PresupuestosController : Controller
         var presupuesto = presupuestosRepository.GetPresupuesto(id);
         if (presupuesto == null)
         {
-            return NotFound();
+            NotFound();
         }
         return View(presupuesto);
     }
