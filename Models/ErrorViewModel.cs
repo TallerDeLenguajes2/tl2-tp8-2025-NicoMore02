@@ -1,4 +1,4 @@
-namespace tp10.Models;
+namespace MVC.Models;
 
 public class ErrorViewModel
 {

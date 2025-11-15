@@ -16,8 +16,8 @@ public class UsuarioRepository : IUserRepository
         conexion.Open();
 
         using var comando = new SqliteCommand(sql, conexion);
-        comando.Parameters.AddWithValue("@User", username);
-        comando.Parameters.AddWithValue("@Pass", password);
+        comando.Parameters.AddWithValue("@username", username);
+        comando.Parameters.AddWithValue("@password", password);
 
         using var reader = comando.ExecuteReader();
         if (reader.Read())

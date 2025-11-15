@@ -4,29 +4,63 @@ using SistemaVentas.Web.ViewModels;
 using MVC.Models;
 using MVC.Repositorios;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using MVC.Interfaces;
+
 
 namespace tl2_tp8_2025_NicoMore02.Controllers;
 
 public class PresupuestosController : Controller
 {
-    private PresupuestosRepository presupuestosRepository;
-    private readonly ProductosRepository productosRepository = new ProductosRepository();
-    public PresupuestosController()
+    private readonly IPresupuestoRepository _repo;
+    private readonly IProductoRepository _productoRepo;
+    private readonly IAuthenticationRepository _authService;
+
+    public PresupuestosController(
+        IPresupuestoRepository repo,
+        IProductoRepository productoRepo,
+        IAuthenticationRepository authService)
     {
-        presupuestosRepository = new PresupuestosRepository();
+        _repo = repo;
+        _productoRepo = productoRepo;
+        _authService = authService;
+    }
+
+    private IActionResult CheckPermissions()
+    {
+        if (!_authService.IsAuthenticated())
+            return RedirectToAction("Index", "Login");
+
+        if (_authService.HasAccessLevel("Administrador") || _authService.HasAccessLevel("Cliente")) return null;
+
+        return RedirectToAction(nameof(AccesoDenegado));
+    }
+
+    private IActionResult CheckWritePermissions()
+    {
+        if (!_authService.IsAuthenticated()) return RedirectToAction("Index", "Login");
+
+        if (!_authService.HasAccessLevel("Administrador")) return RedirectToAction(nameof(AccesoDenegado));
+
+        return null;
     }
 
     [HttpGet]
     public IActionResult Index()
     {
-        List<Presupuestos> presupuestos = presupuestosRepository.ListarPresupuestos();
+        var check = CheckPermissions();
+        if (check != null) return check;
+
+        List<Presupuestos> presupuestos = _repo.ListarPresupuestos();
         return View(presupuestos);
     }
 
     [HttpGet]
     public IActionResult Details(int id)
     {
-        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        var check = CheckPermissions();
+        if (check != null) return check;
+
+        var presupuesto = _repo.GetPresupuesto(id);
         if (presupuesto == null)
         {
             NotFound();
@@ -38,6 +72,9 @@ public class PresupuestosController : Controller
     [HttpGet]
     public IActionResult Create()
     {
+        var check = CheckPermissions();
+        if (check != null) return check;
+
         var presupuesto = new PresupuestoViewModel
         {
             FechaCreacion = DateTime.Now
@@ -48,6 +85,9 @@ public class PresupuestosController : Controller
     [HttpPost]
     public IActionResult Create(PresupuestoViewModel presupuestoVm)
     {
+        var check = CheckWritePermissions();
+        if (check != null) return check;
+
         if (!ModelState.IsValid)
         {
             return View(presupuestoVm);
@@ -57,7 +97,7 @@ public class PresupuestosController : Controller
             NombreDestinatario = presupuestoVm.NombreDestinatario,
             FechaCreacion = presupuestoVm.FechaCreacion
         };
-        presupuestosRepository.CrearPresupuesto(nuevoPresupuesto);
+        _repo.CrearPresupuesto(nuevoPresupuesto);
         TempData["Success"] = "Presupuesto creado correctamente";
         return RedirectToAction(nameof(Index));
     }
@@ -67,7 +107,10 @@ public class PresupuestosController : Controller
     [HttpGet]
     public IActionResult Edit(int id)
     {
-        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        var check = CheckPermissions();
+        if (check != null) return check;
+
+        var presupuesto = _repo.GetPresupuesto(id);
         if (presupuesto == null)
         {
             TempData["Error"] = "Presupuesto no encontrado";
@@ -85,6 +128,9 @@ public class PresupuestosController : Controller
     [HttpPost]
     public IActionResult Edit(int id, PresupuestoViewModel presupuestoView)
     {
+        var check = CheckWritePermissions();
+        if (check != null) return check;
+
         if (!ModelState.IsValid)
         {
             return View(presupuestoView);
@@ -95,7 +141,7 @@ public class PresupuestosController : Controller
             NombreDestinatario = presupuestoView.NombreDestinatario,
             FechaCreacion = presupuestoView.FechaCreacion
         };
-        presupuestosRepository.ActualizarPresupuesto(presupuestoEditar);
+        _repo.ActualizarPresupuesto(presupuestoEditar);
         TempData["Success"] = "Presupuesto actualizado correctamente";
         return RedirectToAction(nameof(Details), new { id = presupuestoView.idPresupuesto });
     }
@@ -104,8 +150,10 @@ public class PresupuestosController : Controller
     [HttpGet]
     public IActionResult Delete(int id)
     {
+        var check = CheckPermissions();
+        if (check != null) return check;
 
-        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        var presupuesto = _repo.GetPresupuesto(id);
         if (presupuesto == null)
         {
             TempData["Error"] = "Presupuesto no encontrado";
@@ -117,13 +165,16 @@ public class PresupuestosController : Controller
     [HttpPost, ActionName("EliminarConfirmado")]
     public IActionResult DeleteConfirmed(int id)
     {
-        var presupuesto = presupuestosRepository.GetPresupuesto(id);
+        var check = CheckWritePermissions();
+        if (check != null) return check;
+
+        var presupuesto = _repo.GetPresupuesto(id);
         if (presupuesto == null)
         {
             TempData["Error"] = "Presupuesto no encontrado";
             return RedirectToAction(nameof(Index));
         }
-        presupuestosRepository.EliminarPresupuesto(id);
+        _repo.EliminarPresupuesto(id);
         TempData["Success"] = "Presupuesto Eliminado correctamente";
         return RedirectToAction(nameof(Index));
     }
@@ -133,8 +184,10 @@ public class PresupuestosController : Controller
     [HttpGet]
     public IActionResult AgregarProducto(int id)
     {
-
-        var productos = productosRepository.ListarTodos();
+        var check = CheckPermissions();
+        if (check != null) return check;
+        
+        var productos = _productoRepo.ListarTodos();
         var modelo = new AgregarProductoViewModel
         {
             idPresupuesto = id,
@@ -148,16 +201,25 @@ public class PresupuestosController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult AgregarProducto(AgregarProductoViewModel modelo)
     {
+        var check = CheckWritePermissions();
+        if (check != null) return check;
+
         if (!ModelState.IsValid)
         {
-            var producto = productosRepository.ListarTodos();
+            var producto = _productoRepo.ListarTodos();
             modelo.ListaProductos = new SelectList(producto, "idProducto", "descripcion");
             return View(modelo);
         }
-        presupuestosRepository.AgregarProductos(modelo.idPresupuesto, modelo.idProducto, modelo.cantidad);
+        _repo.AgregarProductos(modelo.idPresupuesto, modelo.idProducto, modelo.cantidad);
 
         TempData["Success"] = $"Producto agregado correctamente al presupuesto (Cantidad: {modelo.cantidad})";
         return RedirectToAction(nameof(Details), new { id = modelo.idPresupuesto });
     }
 
+    
+    [HttpGet]
+    public IActionResult AccesoDenegado()
+    {
+        return View();
+    }
 }

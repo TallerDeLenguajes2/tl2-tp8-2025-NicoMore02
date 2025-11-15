@@ -1,251 +1,3 @@
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.runtime.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.endpoints.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.exe
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.deps.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.runtimeconfig.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.AssemblyInfoInputs.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.AssemblyInfo.cs
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.CoreCompileInputs.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cs
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\bundle\tl2-tp8-2025-NicoMore02.styles.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\projectbundle\tl2-tp8-2025-NicoMore02.bundle.scp.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e8wf00qg6y-b9sayid5wm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u4567ab2i8-61n19gt1b8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\mzmw4x8c3z-xtxxf3hu2r.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\3mnn0x3gfp-bqjiyaj88i.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xm0j68k49b-c2jlpeoesf.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ul89yw3z82-erw9l3u2r3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zmxaks5lrv-aexeepp0ev.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gicmwv3t37-d7shbmvgxk.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\97av441v02-ausgxo2sd3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\rrvcsw7i26-k8d9w2qqmf.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\wcpbx3lsuo-cosvhxvwiu.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\b16r5s9wj2-ub07r2b239.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m7v2r4uxao-fvhpjtyr6v.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\99mw7bm2k4-b7pk76d08c.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2lxe7wiu8e-fsbi9cje9m.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9b0emrsrcu-rzd6atqjts.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xxev039eet-ee0r1s7dh0.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w43earkdjy-dxx9fxp4il.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gxjs49gn63-jd9uben2k1.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\bl7y982ko7-khv3u5hwcm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\h0zq48ixx1-r4e9w2rdcm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\fy0ovvo2y1-lcd1t2u6c8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8cy2olwl75-c2oey78nd0.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\tq68swtoxc-tdbxkamptv.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\jsh4hry3je-j5mq2jizvt.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ue1tldq7wc-06098lyss8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zlyo9qyois-nvvlpmu67g.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u5u2btg8xf-s35ty4nyc5.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zjg6ijpn65-pj5nd1wqec.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r49ive9rsy-46ein0sx1k.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kd5jrkuw7n-v0zj4ognzu.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a59hm0vrm3-37tfw0ft22.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\yn0vih1xx9-hrwsygsryq.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nck39xedzn-pk9g2wxc8p.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5l6u4akkp2-ft3s53vfgj.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1xm1r50si1-6cfz1n2cew.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ow9gsv1f8a-6pdc2jztkx.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1gu4ji18g5-493y06b0oq.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8m6ssuh82c-iovd86k7lj.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9yfmrkq3um-vr1egmr9el.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nwxi9b8yhe-kbrnm935zg.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e0tf54tqt6-jj8uyg4cgr.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g42gtb7cr-y7v9cxd14o.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m2q6r1fwsc-notf2xhcfb.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\k8o29x9zhw-h1s4sie4z3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\eigyl4uz4p-63fj8s7r0e.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8hc5b84e4o-0j3bgjxly4.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ddclcdp4rb-47otxtyo56.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\f6sllxgoj1-4v8eqarkd7.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\pmu7to8im6-356vix0kms.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g6twlsxe8-83jwlth58m.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r6dgu3b9sy-mrlpezrjn3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5j2buoxgl8-lzl9nlhx6b.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\p8ndtqfhrh-ag7o75518u.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\vsqtxuwm5v-x0q3zqp4vz.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9wspuet0uq-0i3buxo5is.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\oegnl9pt1q-o1o13a6vjx.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\lzh4zvpbaa-ttgo8qnofa.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\z88hyluejq-2z0ns9nrw6.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\i2v1fia7mx-muycvpuwrr.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\qugo72ns18-87fc7y1x7t.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w6cexzveep-mlv21k5csn.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kc8uaq12zr-3uatse2au8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a97wyao8u4-3uatse2au8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\refint\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.genruntimeconfig.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\ref\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.core.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.AssemblyReference.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-.D9267CBC.Up2Date
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp 8\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.sourcelink.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.Development.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.endpoints.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.runtime.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.exe
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.deps.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.runtimeconfig.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.core.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.AssemblyReference.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.AssemblyInfoInputs.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.AssemblyInfo.cs
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.CoreCompileInputs.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cs
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.sourcelink.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjimswa.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\bundle\tl2-tp8-2025-NicoMore02.styles.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\projectbundle\tl2-tp8-2025-NicoMore02.bundle.scp.css
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e8wf00qg6y-b9sayid5wm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u4567ab2i8-61n19gt1b8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\mzmw4x8c3z-xtxxf3hu2r.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\3mnn0x3gfp-bqjiyaj88i.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xm0j68k49b-c2jlpeoesf.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ul89yw3z82-erw9l3u2r3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zmxaks5lrv-aexeepp0ev.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gicmwv3t37-d7shbmvgxk.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\97av441v02-ausgxo2sd3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\rrvcsw7i26-k8d9w2qqmf.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\wcpbx3lsuo-cosvhxvwiu.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\b16r5s9wj2-ub07r2b239.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m7v2r4uxao-fvhpjtyr6v.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\99mw7bm2k4-b7pk76d08c.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2lxe7wiu8e-fsbi9cje9m.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9b0emrsrcu-rzd6atqjts.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xxev039eet-ee0r1s7dh0.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w43earkdjy-dxx9fxp4il.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gxjs49gn63-jd9uben2k1.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\bl7y982ko7-khv3u5hwcm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\h0zq48ixx1-r4e9w2rdcm.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\fy0ovvo2y1-lcd1t2u6c8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8cy2olwl75-c2oey78nd0.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\tq68swtoxc-tdbxkamptv.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\jsh4hry3je-j5mq2jizvt.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ue1tldq7wc-06098lyss8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zlyo9qyois-nvvlpmu67g.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u5u2btg8xf-s35ty4nyc5.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zjg6ijpn65-pj5nd1wqec.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r49ive9rsy-46ein0sx1k.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kd5jrkuw7n-v0zj4ognzu.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a59hm0vrm3-37tfw0ft22.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\yn0vih1xx9-hrwsygsryq.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nck39xedzn-pk9g2wxc8p.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5l6u4akkp2-ft3s53vfgj.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1xm1r50si1-6cfz1n2cew.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ow9gsv1f8a-6pdc2jztkx.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1gu4ji18g5-493y06b0oq.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8m6ssuh82c-iovd86k7lj.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9yfmrkq3um-vr1egmr9el.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nwxi9b8yhe-kbrnm935zg.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e0tf54tqt6-jj8uyg4cgr.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g42gtb7cr-y7v9cxd14o.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m2q6r1fwsc-notf2xhcfb.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\k8o29x9zhw-h1s4sie4z3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\eigyl4uz4p-63fj8s7r0e.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8hc5b84e4o-0j3bgjxly4.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ddclcdp4rb-47otxtyo56.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\f6sllxgoj1-4v8eqarkd7.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\pmu7to8im6-356vix0kms.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g6twlsxe8-83jwlth58m.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r6dgu3b9sy-mrlpezrjn3.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5j2buoxgl8-lzl9nlhx6b.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\p8ndtqfhrh-ag7o75518u.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\vsqtxuwm5v-x0q3zqp4vz.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9wspuet0uq-0i3buxo5is.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\oegnl9pt1q-o1o13a6vjx.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\lzh4zvpbaa-ttgo8qnofa.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\z88hyluejq-2z0ns9nrw6.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\i2v1fia7mx-muycvpuwrr.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\qugo72ns18-87fc7y1x7t.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w6cexzveep-mlv21k5csn.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kc8uaq12zr-3uatse2au8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a97wyao8u4-3uatse2au8.gz
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.development.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-.D9267CBC.Up2Date
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\refint\tl2-tp8-2025-NicoMore02.dll
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.genruntimeconfig.cache
-C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp9\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\ref\tl2-tp8-2025-NicoMore02.dll
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.csproj.AssemblyReference.cache
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rpswa.dswa.cache.json
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.GeneratedMSBuildEditorConfig.editorconfig
@@ -256,6 +8,117 @@ C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\t
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cache
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.RazorAssemblyInfo.cs
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.sourcelink.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\appsettings.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.runtime.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.staticwebassets.endpoints.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.exe
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.deps.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.runtimeconfig.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\bundle\tl2-tp8-2025-NicoMore02.styles.css
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\scopedcss\projectbundle\tl2-tp8-2025-NicoMore02.bundle.scp.css
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e8wf00qg6y-b9sayid5wm.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u4567ab2i8-61n19gt1b8.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\mzmw4x8c3z-xtxxf3hu2r.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\3mnn0x3gfp-bqjiyaj88i.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xm0j68k49b-c2jlpeoesf.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ul89yw3z82-erw9l3u2r3.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zmxaks5lrv-aexeepp0ev.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gicmwv3t37-d7shbmvgxk.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\97av441v02-ausgxo2sd3.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\rrvcsw7i26-k8d9w2qqmf.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\wcpbx3lsuo-cosvhxvwiu.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\b16r5s9wj2-ub07r2b239.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m7v2r4uxao-fvhpjtyr6v.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\99mw7bm2k4-b7pk76d08c.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2lxe7wiu8e-fsbi9cje9m.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9b0emrsrcu-rzd6atqjts.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\xxev039eet-ee0r1s7dh0.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w43earkdjy-dxx9fxp4il.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\gxjs49gn63-jd9uben2k1.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\bl7y982ko7-khv3u5hwcm.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\h0zq48ixx1-r4e9w2rdcm.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\fy0ovvo2y1-lcd1t2u6c8.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8cy2olwl75-c2oey78nd0.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\tq68swtoxc-tdbxkamptv.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\jsh4hry3je-j5mq2jizvt.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ue1tldq7wc-06098lyss8.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zlyo9qyois-nvvlpmu67g.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\u5u2btg8xf-s35ty4nyc5.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\zjg6ijpn65-pj5nd1wqec.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r49ive9rsy-46ein0sx1k.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kd5jrkuw7n-v0zj4ognzu.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a59hm0vrm3-37tfw0ft22.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\yn0vih1xx9-hrwsygsryq.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nck39xedzn-pk9g2wxc8p.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5l6u4akkp2-ft3s53vfgj.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1xm1r50si1-6cfz1n2cew.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ow9gsv1f8a-6pdc2jztkx.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\1gu4ji18g5-493y06b0oq.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8m6ssuh82c-iovd86k7lj.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9yfmrkq3um-vr1egmr9el.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\nwxi9b8yhe-kbrnm935zg.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\e0tf54tqt6-jj8uyg4cgr.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g42gtb7cr-y7v9cxd14o.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\m2q6r1fwsc-notf2xhcfb.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\k8o29x9zhw-h1s4sie4z3.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\eigyl4uz4p-63fj8s7r0e.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\8hc5b84e4o-0j3bgjxly4.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\ddclcdp4rb-47otxtyo56.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\f6sllxgoj1-4v8eqarkd7.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\pmu7to8im6-356vix0kms.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\2g6twlsxe8-83jwlth58m.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\r6dgu3b9sy-mrlpezrjn3.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\5j2buoxgl8-lzl9nlhx6b.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\p8ndtqfhrh-ag7o75518u.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\vsqtxuwm5v-x0q3zqp4vz.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\9wspuet0uq-0i3buxo5is.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\oegnl9pt1q-o1o13a6vjx.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\lzh4zvpbaa-ttgo8qnofa.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\z88hyluejq-2z0ns9nrw6.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\i2v1fia7mx-muycvpuwrr.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\qugo72ns18-87fc7y1x7t.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\w6cexzveep-mlv21k5csn.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\kc8uaq12zr-3uatse2au8.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\compressed\a97wyao8u4-3uatse2au8.gz
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-.D9267CBC.Up2Date
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.dll
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\refint\tl2-tp8-2025-NicoMore02.dll
 C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.pdb
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\tl2-tp8-2025-NicoMore02.genruntimeconfig.cache
+C:\Users\nicom\OneDrive\Escritorio\facultad\Taller de Lenguaje 2\Practica\tp10\tl2-tp8-2025-NicoMore02\obj\Debug\net9.0\ref\tl2-tp8-2025-NicoMore02.dll

@@ -1,30 +1,62 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MVC.Interfaces;
 using MVC.Models;
 using MVC.Repositorios;
 using SistemaVentas.Web.ViewModels;
 
-namespace tl2_tp8_2025_NicoMore02.Controllers;
+namespace MVC.Controllers;
 
 public class ProductosController : Controller
 {
-    private readonly ProductosRepository productosRepository = new ProductosRepository();
-    //public ProductosController()
-    //{
-    //    productosRepository = new ProductosRepository();
-    //}
+    private readonly IProductoRepository _repo;
+    private readonly IAuthenticationRepository _authService;
+
+    public ProductosController(IProductoRepository prodRepo, IAuthenticationRepository authService)
+    {
+        _repo = prodRepo;
+        _authService = authService;
+    }
 
     [HttpGet]
     public IActionResult Index()
     {
-        List<Productos> productos = productosRepository.ListarTodos();
+        var securityCheck = CheckAdminPermissions();
+        if (securityCheck != null) return securityCheck;
+
+        List<Productos> productos = _repo.ListarTodos();
         return View(productos);
     }
+
+    private IActionResult CheckAdminPermissions()
+        {
+            
+            if (!_authService.IsAuthenticated())
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            
+            if (!_authService.HasAccessLevel("Administrador"))
+            {
+                return RedirectToAction(nameof(AccesoDenegado));
+            }
+
+            return null; 
+        }
+
+    public IActionResult AccesoDenegado()
+        {
+            return View();
+        }
 
     [HttpGet]
     public IActionResult Details(int id)
     {
-        var producto = productosRepository.BuscarPorId(id);
+        var check = CheckAdminPermissions();
+        if (check != null) return check;
+
+        var producto = _repo.BuscarPorId(id);
         return View(producto);
     }
 
@@ -32,7 +64,8 @@ public class ProductosController : Controller
     [HttpGet]
     public IActionResult Edit(int id)
     {
-        var producto = productosRepository.BuscarPorId(id);
+
+        var producto = _repo.BuscarPorId(id);
         if (producto == null)
         {
             return NotFound();
@@ -50,6 +83,9 @@ public class ProductosController : Controller
     [HttpPost]
     public IActionResult Edit(int id, ProductoViewModel productoVM)
     {
+        var check = CheckAdminPermissions();
+        if (check != null) return check;
+
         if (id != productoVM.idProducto) return NotFound();
 
         if (!ModelState.IsValid)
@@ -62,7 +98,7 @@ public class ProductosController : Controller
             descripcion = productoVM.descripcion,
             precio = productoVM.precio
         };
-        productosRepository.ActualizarProducto(id, ProductoEditado);
+        _repo.ActualizarProducto(id, ProductoEditado);
         return RedirectToAction(nameof(Index));
     }
 
@@ -76,6 +112,9 @@ public class ProductosController : Controller
     [HttpPost]
     public IActionResult Create(ProductoViewModel ProductoVM)
     {
+        var check = CheckAdminPermissions();
+        if (check != null) return check;
+
         if (!ModelState.IsValid)
         {
             return View(ProductoVM);
@@ -85,7 +124,7 @@ public class ProductosController : Controller
             descripcion = ProductoVM.descripcion,
             precio = ProductoVM.precio
         };
-        productosRepository.CrearProducto(nuevoProducto);
+        _repo.CrearProducto(nuevoProducto);
         return RedirectToAction(nameof(Index));
     }
 
@@ -93,7 +132,7 @@ public class ProductosController : Controller
     [HttpGet]
     public IActionResult Delete(int id)
     {
-        var producto = productosRepository.BuscarPorId(id);
+        var producto = _repo.BuscarPorId(id);
         if (producto == null)
         {
             return NotFound();
@@ -104,7 +143,10 @@ public class ProductosController : Controller
     [HttpPost, ActionName("Delete")]
     public IActionResult DeleteConfirmed(int id)
     {
-        productosRepository.EliminarProducto(id);
+        var check = CheckAdminPermissions();
+        if (check != null) return check;
+
+        _repo.EliminarProducto(id);
         TempData["Success"] = "Se elimino el producto con exitó";
         return RedirectToAction(nameof(Index));
     }

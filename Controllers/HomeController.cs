@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using tl2_tp8_2025_NicoMore02.Models;
+using MVC.Models;
 
-namespace tl2_tp8_2025_NicoMore02.Controllers;
+namespace MVC.Controllers;
 
 public class HomeController : Controller
 {

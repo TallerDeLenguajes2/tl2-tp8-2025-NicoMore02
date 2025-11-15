@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>tl2_tp8_2025_NicoMore02</RootNamespace>
+    <RootNamespace>MVC</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
