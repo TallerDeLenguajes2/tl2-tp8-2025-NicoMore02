@@ -196,7 +196,7 @@ public class PresupuestosRepository : IPresupuestoRepository
         using var conexion = new SqliteConnection(connectionString);
         conexion.Open();
 
-        string sqlPresuDetalle = "DELETE FROM PresupuestoDetalle WHERE idPresupuesto = @id";
+        string sqlPresuDetalle = "DELETE FROM PresupuestosDetalle WHERE idPresupuesto = @id";
         using var comando = new SqliteCommand(sqlPresuDetalle, conexion);
         comando.Parameters.Add(new SqliteParameter("@id", id));
         comando.ExecuteNonQuery();

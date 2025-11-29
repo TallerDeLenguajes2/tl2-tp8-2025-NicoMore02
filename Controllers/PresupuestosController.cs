@@ -163,31 +163,31 @@ public class PresupuestosController : Controller
     }
 
     [HttpPost, ActionName("EliminarConfirmado")]
-    public IActionResult DeleteConfirmed(int id)
+    public IActionResult DeleteConfirmed(int idPresupuesto)
     {
         var check = CheckWritePermissions();
         if (check != null) return check;
 
-        var presupuesto = _repo.GetPresupuesto(id);
+        var presupuesto = _repo.GetPresupuesto(idPresupuesto);
         if (presupuesto == null)
         {
             TempData["Error"] = "Presupuesto no encontrado";
             return RedirectToAction(nameof(Index));
         }
-        _repo.EliminarPresupuesto(id);
+        _repo.EliminarPresupuesto(idPresupuesto);
         TempData["Success"] = "Presupuesto Eliminado correctamente";
         return RedirectToAction(nameof(Index));
     }
 
     //GET y POST para agregar producto a un presupuesto
 
-    [HttpGet]
+    //[HttpGet]
     public IActionResult AgregarProducto(int id)
     {
         var check = CheckPermissions();
         if (check != null) return check;
         
-        var productos = _productoRepo.ListarTodos();
+        List<Productos> productos = _productoRepo.ListarTodos();
         var modelo = new AgregarProductoViewModel
         {
             idPresupuesto = id,
@@ -198,7 +198,6 @@ public class PresupuestosController : Controller
     }
 
     [HttpPost]
-    [ValidateAntiForgeryToken]
     public IActionResult AgregarProducto(AgregarProductoViewModel modelo)
     {
         var check = CheckWritePermissions();
@@ -206,8 +205,23 @@ public class PresupuestosController : Controller
 
         if (!ModelState.IsValid)
         {
-            var producto = _productoRepo.ListarTodos();
-            modelo.ListaProductos = new SelectList(producto, "idProducto", "descripcion");
+            // ❌ LÓGICA CRÍTICA DE RECARGA: Si la validación falla (ej. Cantidad < 1),
+            // Muestra todos los errores en la Consola/Debug Output de Visual Studio
+            foreach (var modelStateKey in ModelState.Keys)
+            {
+                var modelStateVal = ModelState[modelStateKey];
+                foreach (var error in modelStateVal.Errors)
+                {
+                    // Imprime el nombre del campo y el error de validación exacto.
+                    Console.WriteLine($"Error en el campo '{modelStateKey}': {error.ErrorMessage}");
+                }
+            }
+    
+            // DEBEMOS recargar el SelectList antes de devolver la vista.
+            var productos = _productoRepo.ListarTodos();
+            modelo.ListaProductos = new SelectList(productos, "idProducto", "descripcion");
+
+            // Devolvemos el modelo con los errores y el dropdown recargado
             return View(modelo);
         }
         _repo.AgregarProductos(modelo.idPresupuesto, modelo.idProducto, modelo.cantidad);
